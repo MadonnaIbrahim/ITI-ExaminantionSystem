@@ -13,6 +13,6 @@ namespace BusineesLayer.Map
         public int PlatformIntakeID { get; set; }
         public System.DateTime? Exam_Date { get; set; }
 
-        public virtual PlatfromIntake PlatfromIntake { get; set; }
+        //public virtual PlatfromIntake PlatfromIntake { get; set; }
     }
 }

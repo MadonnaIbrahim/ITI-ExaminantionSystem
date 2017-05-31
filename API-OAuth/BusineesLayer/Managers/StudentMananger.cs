@@ -23,8 +23,6 @@ namespace BusineesLayer.Managers
             return zz;
         }
 
-
-
         
     }
 

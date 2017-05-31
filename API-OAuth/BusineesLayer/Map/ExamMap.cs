@@ -18,11 +18,11 @@ namespace BusineesLayer.Map
         public int? Exam_Duration { get; set; }
         public int? PlatformIntake_Id { get; set; }
         
-        public virtual PlatfromIntake PlatfromIntake { get; set; }
-        public virtual ICollection<DepartmentsExam> DepartmentsExams { get; set; }
-        public virtual ICollection<NewDateExamForPermittedStudent> NewDateExamForPermittedStudents { get; set; }
-        public virtual ICollection<QuestionsInExam> QuestionsInExams { get; set; }
-        public virtual ICollection<StudentAnswerQuestionInExam> StudentAnswerQuestionInExams { get; set; }
-        public virtual ICollection<StudentPermissionInExam> StudentPermissionInExams { get; set; }
+        //public virtual PlatfromIntake PlatfromIntake { get; set; }
+        //public virtual ICollection<DepartmentsExam> DepartmentsExams { get; set; }
+        //public virtual ICollection<NewDateExamForPermittedStudent> NewDateExamForPermittedStudents { get; set; }
+        //public virtual ICollection<QuestionsInExam> QuestionsInExams { get; set; }
+        //public virtual ICollection<StudentAnswerQuestionInExam> StudentAnswerQuestionInExams { get; set; }
+        //public virtual ICollection<StudentPermissionInExam> StudentPermissionInExams { get; set; }
     }
 }

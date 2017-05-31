@@ -7,7 +7,7 @@ using DataAccessLayer.Models;
 
 namespace BusineesLayer.Map
 {
-    class QuestionMap
+  public  class QuestionMap
     {
         public int Ques_Id { get; set; }
         public int Ques_Type { get; set; }
@@ -19,10 +19,10 @@ namespace BusineesLayer.Map
         public Nullable<int> Ins_Id { get; set; }
         public Nullable<bool> Points_Indicator { get; set; }
         
-        public virtual ICollection<QuestionAnswer> QuestionAnswers { get; set; }
-        public virtual ICollection<QuestionsInExam> QuestionsInExams { get; set; }
-        public virtual ICollection<StudentMultiAnswersQuestion> StudentMultiAnswersQuestions { get; set; }
-        public virtual ICollection<Question> Questions1 { get; set; }
-        public virtual ICollection<Question> Questions { get; set; }
+        //public virtual ICollection<QuestionAnswer> QuestionAnswers { get; set; }
+        //public virtual ICollection<QuestionsInExam> QuestionsInExams { get; set; }
+        //public virtual ICollection<StudentMultiAnswersQuestion> StudentMultiAnswersQuestions { get; set; }
+        //public virtual ICollection<Question> Questions1 { get; set; }
+        //public virtual ICollection<Question> Questions { get; set; }
     }
 }
